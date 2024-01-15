@@ -11,8 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  console.log("hello");
-  res.status(200);
   res.json({ message: "hello" });
 });
 
