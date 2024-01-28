@@ -1,6 +1,12 @@
+# Course: Frontend Masters - API Design in Node.js, v4
+
+This project implements the code from this [course](https://frontendmasters.com/courses/api-design-nodejs-v4/).
+
+Instead of creating a cloud Postgres db on **Render.com**, a `docker-compose.yml` file is used to spin up a local containerized version of the db, which is then controlled through **Prisma**.
+
 ## Docker postgres commands
 
-### Access pg REPL da dentro al container:
+### Access pg REPL within the container:
 
 ```
 pgsql -U root_username -d db_name
